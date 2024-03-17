@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Preahvihear&display=swap');
+
+
+html,body{
+    margin: 0;
+    background-color: #1F2937;
+}
+
+.container{
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5; 
+    margin: 0 auto;
+}
+
+/* HEADER STYLING */
+
+.header{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-inputs{
+    width: 95%;
+    display: flex;
+    margin-top: 1em;
+}
+
+.color{
+    width: 20%;
+    height: 40px;
+}
+
+
+.mode{
+    width: 80%;
+    font-family: "Crafty Girls", cursive;
+    margin-left: 0.4em;
+    font-size: 1.5rem;
+}
+
+
+.getcolorscheme{
+    font-size: 1.5rem;
+    width: 95%;
+    font-family: "Preahvihear", sans-serif;
+    cursor: pointer;
+    margin-top: 0.5em;
+    background-color: #3D4B60;
+    box-shadow: 5px 6px black;
+    border: none;
+    color: #FFFFFF;
+}
+
+.getcolorscheme:hover{
+    box-shadow: 0px 0px;
+}
+
+/* SECTION ONE STYLING */
+
+.sectionone{
+    width: 100%;
+    margin-top: 2em;
+}
+
+.color-one{
+    height: 90px;
+    background-color: #A626D3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-color-one{
+    font-size: 1.375rem;
+    font-family: "Preahvihear", sans-serif;
+    color: black;
+    text-shadow: 1px 1px 10px yellow;
+}
+
+p{
+    font-family: "Crafty Girls", cursive;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1em auto;
+    width: 89%;
+}
+
+.gif{
+    margin-top: 2em;
+    background: url('./assets/download.gif');
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+    width: 95%;
+}
+
+/* FOOTER STYLING */
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #27446d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > h3{
+    font-family: "Crafty Girls", cursive;
+    font-size: 1.5rem;
+    margin-left: 0.25em;
+}
+
+i{
+    font-size: 1em;
+    color: black;
+}

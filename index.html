@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="header-inputs">
+                    <input 
+                        type="color"
+                        class="color"
+                        id="color"
+                    >
+                    <select name="mode" id="mode" class="mode">
+                        <option value="monochrome">monochrome</option>
+                        <option value="monochrome-dark">monochrome-dark</option>
+                        <option value="monochrome-light">monochrome-light</option>
+                        <option value="analogic">analogic</option>
+                        <option value="complement">complement</option>
+                        <option value="analogic-complement">analogic-complement</option>
+                        <option value="triad">triad</option>
+                        <option value="quad">quad</option>
+                    </select>
+                </div>
+                <button class="getcolorscheme" id="getcolorscheme">Crayons</button>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="gif" id="gif"></div>
+            <div class="sectionone" id="sectionone"></div>
+            <p>“"Life is about using the whole box of crayons." RuPaul</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <i class="fa fa-copyright fa-2x"></i>
+                <h3>Divv Saxena</h3>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
